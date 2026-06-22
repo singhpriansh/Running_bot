@@ -27,7 +27,7 @@ For a deep dive into
 * circuit design
 ![alt text](images/circuit_robo.webp)
 * soldering
-![alt text](images/soldering.jpg)
+![alt text](images/soldering.png)
 * assembly of a competitive PID
 ![alt text](images/bot.png)
 
