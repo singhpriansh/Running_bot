@@ -48,7 +48,7 @@ In your microcontroller's loop function, the logic typically follows this sequen
 2. **Calculate Error:** Subtract the target position (usually the center sensor) from the current line position.
 3. **Compute PID:** Use the formula:
    \(PID\_Value = (K_p \times Error) + (K_i \times Integral) + (K_d \times Derivative)\)
-4. **Drive Motors:** Adjust motor speeds differentially. For example: [[1](https://www.mdpi.com/2073-8994/16/4/423), [2](https://zbotic.in/pid-line-follower-robot-tuning-speed-competition/)]
+4. **Drive Motors:** Adjust motor speeds differentially.
 
 * **Left Motor Speed =**\(Base\_Speed - PID\_Value\)
 * **Right Motor Speed =**\(Base\_Speed + PID\_Value\)
